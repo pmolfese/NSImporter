@@ -1,0 +1,146 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = ppc;
+		activeBuildConfigurationName = Release;
+		activeExecutable = C13FB37D0E705F2100F412C1 /* NSImporter */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8DD76F960486AA7600D96B5E /* NSImporter */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* NSImporter */,
+		);
+		breakpoints = (
+			C1FD2AA111ECFA97001F29A0 /* NSImporter.m:8 */,
+			C1FD2ABB11ECFB94001F29A0 /* NSImporter.m:19 */,
+		);
+		codeSenseManager = C13FB3880E705F3400F412C1 /* Code sense */;
+		executables = (
+			C13FB37D0E705F2100F412C1 /* NSImporter */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 300818430;
+			PBXWorkspaceStateSaveDate = 300818430;
+		};
+		sourceControlManager = C13FB3870E705F3400F412C1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* NSImporter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1297, 858}}";
+			sepNavSelRange = "{2222, 0}";
+			sepNavVisRange = "{191, 2033}";
+			sepNavWindowFrame = "{{32, 150}, {1356, 878}}";
+		};
+	};
+	8DD76F960486AA7600D96B5E /* NSImporter */ = {
+		activeExec = 0;
+		executables = (
+			C13FB37D0E705F2100F412C1 /* NSImporter */,
+		);
+	};
+	C13FB37D0E705F2100F412C1 /* NSImporter */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"/Users/pete/Documents/~Programming/NSImporter/build/Debug/3721.raw",
+			"/Users/pete/Documents/~Programming/NSImporter/build/Debug/b.txt",
+			"-c",
+			win,
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = NSImporter;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C13FB3840E705F3400F412C1 /* EGIFile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1040, 750}}";
+			sepNavSelRange = "{107, 0}";
+			sepNavVisRange = "{0, 918}";
+			sepNavWindowFrame = "{{15, 0}, {1099, 878}}";
+		};
+	};
+	C13FB3850E705F3400F412C1 /* EGIFile.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 2743}}";
+			sepNavSelRange = "{107, 0}";
+			sepNavVisRange = "{0, 1405}";
+			sepNavWindowFrame = "{{15, 28}, {988, 1000}}";
+		};
+	};
+	C13FB3870E705F3400F412C1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C13FB3880E705F3400F412C1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C1FD2AA111ECFA97001F29A0 /* NSImporter.m:8 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* NSImporter.m */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 8;
+		modificationTime = 300743319.691458;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	C1FD2ABB11ECFB94001F29A0 /* NSImporter.m:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* NSImporter.m */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 19;
+		modificationTime = 300743578.968139;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+}
